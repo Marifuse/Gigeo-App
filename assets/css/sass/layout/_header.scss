@@ -1,0 +1,19 @@
+// Imagen principal
+.header__img {
+  height: 25em;
+  position: relative;
+}
+
+//Perfil Yuki Yuki Mukami
+.main__container {
+  justify-content: space-between;
+  border-bottom: 1px solid $nickel;
+}
+
+.personal__profile {
+  img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,35 @@
+// Navbar logo
+.navbar-brand {
+  color: $black;
+  font-size: $x-large;
+  margin-left: 1em;
+  transition: .5s;
+  span{
+    font-size: $small;
+  }
+  &:hover {
+    color: $nickel;
+  }
+}
+
+// Navbar íconos
+.nav__item {
+  a {
+    i {
+      transition: .5s;
+      color: $black;
+      font-size: $large;
+      margin-left: 1em;
+      &:hover {
+          color: $nickel;
+      }
+
+    }
+  }
+}
+
+.nav__items {
+  &:last-child {
+    margin-right: 1em;
+  }
+}

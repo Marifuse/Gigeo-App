@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GIGEO App</title>
+    <link rel="shortcut icon" type="assets/img" href="assets/img/gigeo-logo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-        <a class="navbar-brand d-flex" href="#">GIGEO<span class="">ART</span></a>
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #FFFFFF;">
+        <a class="navbar-brand d-flex" href="#">GIGEO<span class="nav__span">ART</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+          <ul class="navbar-nav ml-auto nav__items">
+            <li class="nav__item">
               <a href="#search"><i class="fas fa-search"></i></a>
             </li>
-            <li class="nav-item">
+            <li class="nav__item">
               <a href="#camera"><i class="fas fa-video"></i></a>
             </li>
-            <li class="nav-item">
+            <li class="nav__item">
               <a href="#plus"><i class="fas fa-plus"></i></a>
             </li>
-            <li class="nav-item">
+            <li class="nav__item">
               <a href="#bell"><i class="far fa-bell"></i></a>
             </li>
-            <li class="nav-item">
+            <li class="nav__item">
               <a href="#bars"><i class="fas fa-bars"></i></a>
             </li>
           </ul>
@@ -52,7 +53,7 @@
             </div>
         </div>
         <div class="profile__buttons d-none d-md-block">
-          <div class="profile__buttons-son justify-content-end my-5 d-flex">
+          <div class="profile__buttons-son justify-content-end my-5 d-flex d-none d-sm-none d-md-none">
             <button class="btn-info btn-lg" type="submit">Mensaje</button>
             <button class="btn-danger ml-md-3 btn-lg" type="button">Seguir</button>
           </div>

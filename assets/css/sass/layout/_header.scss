@@ -30,3 +30,20 @@
     color: $nickel;
   }
 }
+
+// Media Querys versión movil
+@media (max-width: 767px) {
+  .header__img {
+    height: 15em;
+  }
+  .main__container {
+    justify-content: center !important;
+    border-bottom: none;
+  }
+  .personal__profile {
+    margin-top: 0 !important;
+  }
+  .main__profile {
+    margin-right: 0 !important;
+  }
+}

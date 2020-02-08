@@ -9988,12 +9988,12 @@ h1, h2, h3, h4, p {
   height: 75%;
 }
 .video__box h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   padding-bottom: 0.5em;
 }
 .video__box p {
-  font-size: 12px;
+  font-size: 16px;
   color: #6C6E70;
 }
 

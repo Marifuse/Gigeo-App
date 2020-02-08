@@ -6,8 +6,16 @@
 
 // Textos
 .video__box {
+  img {
+    height: 75%;
+  }
   h3 {
-    font-size: $large;
+    font-size: $medium;
     font-weight: $bold;
+    padding-bottom: 0.5em;
+  }
+  p {
+    font-size: $small;
+    color: $nickel;
   }
 }

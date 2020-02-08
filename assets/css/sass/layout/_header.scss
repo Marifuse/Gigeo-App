@@ -10,10 +10,23 @@
   border-bottom: 1px solid $nickel;
 }
 
+.buttons__button {
+  transition: .5s !important;
+}
+
 .personal__profile {
   img {
     height: 65px;
     width: 65px;
     border-radius: 50%;
+  }
+}
+
+.main__profile {
+  h2 {
+    font-weight: $bold;
+  }
+  p {
+    color: $nickel;
   }
 }
